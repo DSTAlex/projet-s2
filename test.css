@@ -1,41 +1,42 @@
+@font-face {
+    font-family: 'pol';
+    src: url('Enchanted Land.otf');
+}
+
 body
 {
-	background-image: url("fond.jpg");
+	background-image: url("fond.png");
 	text-align: center;
-}
-p
-{
-    color: white;
-    font-family: Comic Sans MS,Arial;
-    text-align: justify-all;
-    font-weight: bold;
-    font-size: 15px;
-}
-h1
-{
-	color : white ;
-	font-size: 40px;
-	font-weight: bold;
-	text-align: center;
-	font-family: Comic Sans MS,Arial;
-}
-h4
-{
 	color: white;
-	font-size: 20px;
-	text-align: center;
-	font-family: Comic Sans MS,Arial;
+	font-size: 32px;
+	font-family: 'pol';
 }
-li
+header
 {
-	color: white;
-	font-family: Comic Sans MS,Arial;
+	font-size: 25px;
+	border: 2px white solid;
 }
 a
 {
+	color:white;
+}
+a:visited
+{
+	color:white;
+}
+#bande
+{
+	display: flex;
+	justify-content: space-between;
+	margin:auto;
 	color: white;
-	font-weight: bold;
-	font-style: italic;
+}
+p
+{
+	border-right: 1px white solid;
+}
 
-	font-family: Comic Sans MS,Arial;
+#t1,#t2,#t3,#t4,#mc,#rech
+{
+		 margin: auto;
 }
